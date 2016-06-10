@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75668AAE1B726CE20009BC19 /* ProdInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75668AAD1B726CE20009BC19 /* ProdInfoViewController.m */; };
+		759158501B7224F600EC0AF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7591584F1B7224F600EC0AF2 /* main.m */; };
+		759158531B7224F600EC0AF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 759158521B7224F600EC0AF2 /* AppDelegate.m */; };
+		759158591B7224F600EC0AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759158571B7224F600EC0AF2 /* Main.storyboard */; };
+		7591585B1B7224F600EC0AF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7591585A1B7224F600EC0AF2 /* Images.xcassets */; };
+		7591585E1B7224F600EC0AF2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7591585C1B7224F600EC0AF2 /* LaunchScreen.xib */; };
+		7591586A1B7224F600EC0AF2 /* SipacAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 759158691B7224F600EC0AF2 /* SipacAppTests.m */; };
+		759158751B72260100EC0AF2 /* ProdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759158741B72260100EC0AF2 /* ProdTableViewController.m */; };
+		759158781B72264600EC0AF2 /* Productor.m in Sources */ = {isa = PBXBuildFile; fileRef = 759158771B72264600EC0AF2 /* Productor.m */; };
+		7591587B1B7241FD00EC0AF2 /* ProdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7591587A1B7241FD00EC0AF2 /* ProdTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		759158641B7224F600EC0AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759158421B7224F600EC0AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759158491B7224F600EC0AF2;
+			remoteInfo = SipacApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75668AAC1B726CE20009BC19 /* ProdInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProdInfoViewController.h; sourceTree = "<group>"; };
+		75668AAD1B726CE20009BC19 /* ProdInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProdInfoViewController.m; sourceTree = "<group>"; };
+		7591584A1B7224F600EC0AF2 /* SipacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SipacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7591584E1B7224F600EC0AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7591584F1B7224F600EC0AF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		759158511B7224F600EC0AF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		759158521B7224F600EC0AF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		759158581B7224F600EC0AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7591585A1B7224F600EC0AF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7591585D1B7224F600EC0AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		759158631B7224F600EC0AF2 /* SipacAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SipacAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759158681B7224F600EC0AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759158691B7224F600EC0AF2 /* SipacAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SipacAppTests.m; sourceTree = "<group>"; };
+		759158731B72260100EC0AF2 /* ProdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProdTableViewController.h; sourceTree = "<group>"; };
+		759158741B72260100EC0AF2 /* ProdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProdTableViewController.m; sourceTree = "<group>"; };
+		759158761B72264600EC0AF2 /* Productor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Productor.h; sourceTree = "<group>"; };
+		759158771B72264600EC0AF2 /* Productor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Productor.m; sourceTree = "<group>"; };
+		759158791B7241FD00EC0AF2 /* ProdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProdTableViewCell.h; sourceTree = "<group>"; };
+		7591587A1B7241FD00EC0AF2 /* ProdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProdTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		759158471B7224F600EC0AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759158601B7224F600EC0AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		759158411B7224F600EC0AF2 = {
+			isa = PBXGroup;
+			children = (
+				7591584C1B7224F600EC0AF2 /* SipacApp */,
+				759158661B7224F600EC0AF2 /* SipacAppTests */,
+				7591584B1B7224F600EC0AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7591584B1B7224F600EC0AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7591584A1B7224F600EC0AF2 /* SipacApp.app */,
+				759158631B7224F600EC0AF2 /* SipacAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7591584C1B7224F600EC0AF2 /* SipacApp */ = {
+			isa = PBXGroup;
+			children = (
+				759158511B7224F600EC0AF2 /* AppDelegate.h */,
+				759158521B7224F600EC0AF2 /* AppDelegate.m */,
+				759158571B7224F600EC0AF2 /* Main.storyboard */,
+				7591585A1B7224F600EC0AF2 /* Images.xcassets */,
+				7591585C1B7224F600EC0AF2 /* LaunchScreen.xib */,
+				7591584D1B7224F600EC0AF2 /* Supporting Files */,
+				759158731B72260100EC0AF2 /* ProdTableViewController.h */,
+				759158741B72260100EC0AF2 /* ProdTableViewController.m */,
+				759158761B72264600EC0AF2 /* Productor.h */,
+				759158771B72264600EC0AF2 /* Productor.m */,
+				759158791B7241FD00EC0AF2 /* ProdTableViewCell.h */,
+				7591587A1B7241FD00EC0AF2 /* ProdTableViewCell.m */,
+				75668AAC1B726CE20009BC19 /* ProdInfoViewController.h */,
+				75668AAD1B726CE20009BC19 /* ProdInfoViewController.m */,
+			);
+			path = SipacApp;
+			sourceTree = "<group>";
+		};
+		7591584D1B7224F600EC0AF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7591584E1B7224F600EC0AF2 /* Info.plist */,
+				7591584F1B7224F600EC0AF2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		759158661B7224F600EC0AF2 /* SipacAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				759158691B7224F600EC0AF2 /* SipacAppTests.m */,
+				759158671B7224F600EC0AF2 /* Supporting Files */,
+			);
+			path = SipacAppTests;
+			sourceTree = "<group>";
+		};
+		759158671B7224F600EC0AF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				759158681B7224F600EC0AF2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		759158491B7224F600EC0AF2 /* SipacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7591586D1B7224F600EC0AF2 /* Build configuration list for PBXNativeTarget "SipacApp" */;
+			buildPhases = (
+				759158461B7224F600EC0AF2 /* Sources */,
+				759158471B7224F600EC0AF2 /* Frameworks */,
+				759158481B7224F600EC0AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SipacApp;
+			productName = SipacApp;
+			productReference = 7591584A1B7224F600EC0AF2 /* SipacApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		759158621B7224F600EC0AF2 /* SipacAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759158701B7224F600EC0AF2 /* Build configuration list for PBXNativeTarget "SipacAppTests" */;
+			buildPhases = (
+				7591585F1B7224F600EC0AF2 /* Sources */,
+				759158601B7224F600EC0AF2 /* Frameworks */,
+				759158611B7224F600EC0AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759158651B7224F600EC0AF2 /* PBXTargetDependency */,
+			);
+			name = SipacAppTests;
+			productName = SipacAppTests;
+			productReference = 759158631B7224F600EC0AF2 /* SipacAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		759158421B7224F600EC0AF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SolidSoftware;
+				TargetAttributes = {
+					759158491B7224F600EC0AF2 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3F2PC2CL7V;
+					};
+					759158621B7224F600EC0AF2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 759158491B7224F600EC0AF2;
+					};
+				};
+			};
+			buildConfigurationList = 759158451B7224F600EC0AF2 /* Build configuration list for PBXProject "SipacApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 759158411B7224F600EC0AF2;
+			productRefGroup = 7591584B1B7224F600EC0AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				759158491B7224F600EC0AF2 /* SipacApp */,
+				759158621B7224F600EC0AF2 /* SipacAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		759158481B7224F600EC0AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759158591B7224F600EC0AF2 /* Main.storyboard in Resources */,
+				7591585E1B7224F600EC0AF2 /* LaunchScreen.xib in Resources */,
+				7591585B1B7224F600EC0AF2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759158611B7224F600EC0AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759158461B7224F600EC0AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759158751B72260100EC0AF2 /* ProdTableViewController.m in Sources */,
+				75668AAE1B726CE20009BC19 /* ProdInfoViewController.m in Sources */,
+				759158531B7224F600EC0AF2 /* AppDelegate.m in Sources */,
+				759158781B72264600EC0AF2 /* Productor.m in Sources */,
+				7591587B1B7241FD00EC0AF2 /* ProdTableViewCell.m in Sources */,
+				759158501B7224F600EC0AF2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7591585F1B7224F600EC0AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7591586A1B7224F600EC0AF2 /* SipacAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		759158651B7224F600EC0AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759158491B7224F600EC0AF2 /* SipacApp */;
+			targetProxy = 759158641B7224F600EC0AF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		759158571B7224F600EC0AF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759158581B7224F600EC0AF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7591585C1B7224F600EC0AF2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7591585D1B7224F600EC0AF2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7591586B1B7224F600EC0AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7591586C1B7224F600EC0AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7591586E1B7224F600EC0AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SipacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7591586F1B7224F600EC0AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SipacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		759158711B7224F600EC0AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SipacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SipacApp.app/SipacApp";
+			};
+			name = Debug;
+		};
+		759158721B7224F600EC0AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SipacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SipacApp.app/SipacApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		759158451B7224F600EC0AF2 /* Build configuration list for PBXProject "SipacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7591586B1B7224F600EC0AF2 /* Debug */,
+				7591586C1B7224F600EC0AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7591586D1B7224F600EC0AF2 /* Build configuration list for PBXNativeTarget "SipacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7591586E1B7224F600EC0AF2 /* Debug */,
+				7591586F1B7224F600EC0AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759158701B7224F600EC0AF2 /* Build configuration list for PBXNativeTarget "SipacAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759158711B7224F600EC0AF2 /* Debug */,
+				759158721B7224F600EC0AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 759158421B7224F600EC0AF2 /* Project object */;
+}
